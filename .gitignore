@@ -1,0 +1,5 @@
+# Alleen de website zelf hoort online; hulpscripts en lokale instellingen niet.
+tools/
+.claude/
+img/products/_niet-gevonden.txt
+img/logo-origineel.png

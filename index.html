@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meuwissen Agro – alles voor je tuin</title>
+  <meta name="description" content="Meuwissen Agro: ruim 3.500 tuinartikelen. Tuingereedschap, regentonnen, potten, bewatering en meer, sinds 1987 vanuit Wilnis.">
+  <meta name="theme-color" content="#1e6b2f">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Direct naar de inhoud</a>
+
+  <header class="header">
+    <div class="topbar">
+      <div class="wrap topbar-in">
+        <ul class="usps">
+          <li>Tuinspecialist sinds 1987</li>
+          <li>Ruim 3.500 artikelen</li>
+          <li>A-merken en eigen label</li>
+          <li class="hide-s">Persoonlijk advies: <a href="tel:+31297272611">(0297) 27 26 11</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mainbar">
+      <div class="wrap header-in">
+        <a class="logo" href="#/" aria-label="Meuwissen Agro, naar de homepage">
+          <svg viewBox="0 0 40 40" width="42" height="42" aria-hidden="true">
+            <rect width="40" height="40" rx="8" fill="#fff"/>
+            <path d="M20 31V19" stroke="#1e6b2f" stroke-width="2.6" stroke-linecap="round"/>
+            <path d="M20 21c0-7-5-10.5-11-10.5C9 17 13.5 21 20 21z" fill="#1e6b2f"/>
+            <path d="M20 24c0-5 4-8 10-8 0 5-4 8-10 8z" fill="#9bc31c"/>
+          </svg>
+          <span class="logo-text">Meuwissen<b>Agro</b></span>
+        </a>
+
+        <form class="search" role="search" id="searchForm">
+          <label class="sr" for="q">Zoek in het assortiment</label>
+          <input id="q" name="q" type="search" placeholder="Zoek op product, merk of artikelnummer" autocomplete="off">
+          <button type="submit" aria-label="Zoeken">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          </button>
+        </form>
+
+        <a class="headlink hide-s" href="#/contact">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <span>Klantenservice</span>
+        </a>
+        <a class="headlink cartlink" href="#/winkelwagen">
+          <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path d="M3 4h2.5l2.3 11h10.4L20.5 7H7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9.5" cy="19.5" r="1.6" fill="currentColor"/><circle cx="17" cy="19.5" r="1.6" fill="currentColor"/></svg>
+          <span class="cartlink-text">Winkelwagen</span>
+          <span class="badge" id="cartCount" hidden>0</span>
+        </a>
+      </div>
+    </div>
+    <nav class="catnav" aria-label="Categorieën">
+      <div class="wrap catnav-in">
+        <button type="button" class="allcats" id="menuBtn" aria-expanded="false" aria-controls="megamenu">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>
+          Alle categorieën
+        </button>
+        <ul id="catnav"></ul>
+      </div>
+      <div class="megamenu" id="megamenu" hidden><div class="wrap"><ul id="megalist"></ul></div></div>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <noscript><div class="wrap section"><p>Deze website heeft JavaScript nodig om het assortiment te tonen.</p></div></noscript>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-in">
+      <div>
+        <p class="footer-logo">Meuwissen<b>Agro</b></p>
+        <p>Sinds 1987 leverancier van een groot assortiment tuinartikelen, onder eigen label en van bekende A-merken.</p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <address>
+          Meuwissen Agro BV<br>
+          Burgemeester Padmosweg 161<br>
+          3648 BD Wilnis<br>
+          <a href="tel:+31297272611">(0297) 27 26 11</a><br>
+          <a href="mailto:info@meuwissenagro.nl">info@meuwissenagro.nl</a>
+        </address>
+      </div>
+      <div>
+        <h2>Openingstijden</h2>
+        <p>maandag t/m donderdag<br>8:30 – 17:00 uur</p>
+        <p>vrijdag<br>8:30 – 15:00 uur</p>
+      </div>
+      <div>
+        <h2>Snel naar</h2>
+        <ul>
+          <li><a href="#/assortiment">Hele assortiment</a></li>          <li><a href="#/over">Over ons</a></li>
+          <li><a href="#/contact">Contact</a></li>
+          <li><a href="#/winkelwagen">Winkelwagen</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© <span id="year"></span> Meuwissen Agro BV</span>
+      <span>Prijzen zijn adviesprijzen incl. btw</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data/products.js"></script>
+  <script src="data/images.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
